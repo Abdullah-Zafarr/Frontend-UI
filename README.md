@@ -61,22 +61,3 @@ Frontend-UI/
 
 ```
 
----
-
-<div align="center">
-<h3>📫 Let's Connect</h3>
-<p>
-Developed with focus by <b>Abdullah Zafar</b> 🇵🇰
-
-
-
-
-<i>BSCS Student</i>
-</p>
-
-<a href="https://www.google.com/search?q=https://github.com/Abdullah-Zafarr">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-100000%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" />
-</a>
-</div>
-
-```
