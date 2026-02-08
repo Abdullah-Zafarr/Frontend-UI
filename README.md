@@ -22,13 +22,13 @@
 ---
 
 ## 🌩️ Project Philosophy
-[cite_start]Building a frontend UI for the **"Mitti ke Bartan"** project follows an objective to reflect the purity of the earth while keeping the user experience sharp and responsive[cite: 19, 21]. [cite_start]This repository explores the **First Thought Principle**: why clay was the original medium of human utility and how to bridge that 5,000-year gap with clean, modular code[cite: 66, 68].
+Building a frontend UI for the **"Mitti ke Bartan"** project follows an objective to reflect the purity of the earth while keeping the user experience sharp and responsive. This repository explores the **First Thought Principle**: why clay was the original medium of human utility and how to bridge that 5,000-year gap with clean, modular code.
 
 ## ✨ Core Features
 * **Earthy Aesthetics**: Utilizes a curated palette (#E8DCC8 and #5D4037) with tactile, solid shadows to mimic the physical depth of pottery.
 * **Responsive Architecture**: Implements a Flexbox-powered grid for product cards (Mitti Matka, Glazed Handi, etc.) that scales perfectly across devices.
 * **Local Media Integration**: Features a self-hosted, cinematic video player to ensure zero-latency playback and zero external API dependencies.
-* [cite_start]**Organic Science**: Includes research-backed sections on natural alkalinity, moisture retention, and sustainability of clay[cite: 56, 57, 60].
+* **Organic Science**: Includes research-backed sections on natural alkalinity, moisture retention, and sustainability of clay.
 
 ---
 
@@ -52,12 +52,27 @@ Frontend-UI/
 ├── contact.html        # Tribe-joining form
 ├── common.css          # Global resets and tactile UI system
 └── Media_Files/        # ALL optimized assets
-    ├── ancient.png     # History visual
-    ├── pottery.mp4     # Process footage
-    ├── indus_riverbanks.jpg
-    ├── sample.jpg
-    ├── matka.png
+    ├── ancient.png     
+    ├── pottery.mp4     
+    ├── homepage.jpg    # Full site hero preview
+    ├── products.jpg    # Full collection grid preview
     └── ...             
 
 ```
+
+---
+
+## 🖥️ Some Visuals of the Website
+
+### **Homepage Interface**
+
+The landing page features a minimalist hero section designed to emphasize the brand's core message and offer immediate value via the promotional discount.
+<img src="./Media_Files/homepage.jpg" alt="Mitti Homepage Preview" width="100%" style="border-radius: 15px; border: 1px solid #d7ccc8;">
+
+### **Curated Collection Grid**
+
+The products page utilizes a responsive grid system where each card represents a specific handcrafted item, maintaining visual consistency through uniform sizing and earthy tones.
+<img src="./Media_Files/products.jpg" alt="Mitti Collection Preview" width="100%" style="border-radius: 15px; border: 1px solid #d7ccc8;">
+
+---
 
