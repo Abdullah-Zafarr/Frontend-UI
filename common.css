@@ -1,0 +1,105 @@
+/* Global Resets & Body */
+body.base-style {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #E8DCC8;
+    color: #4a3728;
+    font-size: 1.6rem;
+    line-height: 1.9;
+}
+
+/* Global Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation */
+.main-nav {
+    background: #5d4037;
+    padding: 25px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.nav-link {
+    color: #d7ccc8;
+    margin: 0 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.nav-link:hover {
+    color: #ffab91 !important;
+}
+
+.nav-link.active {
+    color: #ffab91;
+}
+
+/* Sections */
+.content-section {
+    min-height: 80vh;
+    padding: 60px 20px;
+    text-align: center; /* Centers inline content (text, images, inline-block elements) */
+    border-bottom: 1px solid #d7ccc8;
+}
+
+/* Headings */
+.section-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraphs */
+.section-text {
+    max-width: 800px;
+    margin: 20px auto; /* Centered block with vertical spacing */
+    text-align: center;
+}
+
+/* Footer Styles - Same Palette */
+.main-footer {
+    background: #5d4037; /* Same as nav-bg */
+    color: #d7ccc8;      /* Same as nav-link color */
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 1px solid #d7ccc8;
+}
+
+.footer-logo {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: #d7ccc8;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+    color: #ffab91; 
+}
+
+.footer-tagline {
+    font-style: italic;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}

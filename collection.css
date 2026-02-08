@@ -1,0 +1,58 @@
+/* Collection Page Specifics */
+
+/* Product Grid */
+.grid {
+    margin-top: 50px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centers inline-block children */
+}
+
+.product-card {
+    display: inline-block; /* Elements sit side-by-side */
+    vertical-align: top;   /* Aligns them nicely at the top */
+    background: #D4C4B0;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;          /* Fixed width for cards */
+    margin: 20px;          /* Spacing around cards */
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 0 0 20px 0;
+    width: 250px; /* moved from attribute */
+}
+
+.product-card h3 {
+    font-size: 2.2rem;
+}
+
+.product-card p {
+    color: #E97451;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+/* Headers outside of common classes */
+#products > h3 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures no black bars, fills the box */
+    display: block;    /* Removes tiny whitespace at bottom */
+}

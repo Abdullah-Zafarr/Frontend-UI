@@ -1,0 +1,49 @@
+/* Why Us Page Specifics */
+
+
+#blog img {
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 20px 20px 0 #d7ccc8;
+    margin: 40px 0;
+    width: 600px; /* moved from attribute */
+    height: 400px; /* moved from attribute */
+}
+
+ul {
+    line-height: 2.2;
+    font-size: 1.6rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Keep text left-aligned inside the centered block */
+}
+
+/* About Section */
+#about {
+    background: #bda587;
+}
+
+#about img {
+    max-width: 90%;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 20px;
+    box-shadow: 20px 20px 0 #d7ccc8;
+    margin: 40px 0;
+    width: 600px; /* moved from attribute */
+}
+
+/* History Section */
+#history {
+    background: #b89a78;
+}
+
+#history img {
+    max-width: 90%;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 20px;
+    box-shadow: 20px 20px 0 #d7ccc8;
+    margin: 40px 0;
+    width: 600px; /* moved from attribute */
+}
