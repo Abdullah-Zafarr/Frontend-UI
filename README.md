@@ -22,13 +22,13 @@
 ---
 
 ## 🌩️ Project Philosophy
-Building a frontend UI for the **"Mitti ke Bartan"** project follows an objective to reflect the purity of the earth while keeping the user experience sharp and responsive. This repository explores the **First Thought Principle**: why clay was the original medium of human utility and how to bridge that 5,000-year gap with clean, modular code.
+Building a frontend UI for the **"Mitti ke Bartan"** project. It follows an objective to reflect the purity of the earth while keeping the user experience sharp and responsive. This repository explores the **First Thought Principle**: why clay was the original medium of human utility.
 
 ## ✨ Core Features
 * **Earthy Aesthetics**: Utilizes a curated palette (#E8DCC8 and #5D4037) with tactile, solid shadows to mimic the physical depth of pottery.
-* **Responsive Architecture**: Implements a Flexbox-powered grid for product cards (Mitti Matka, Glazed Handi, etc.) that scales perfectly across devices.
-* **Local Media Integration**: Features a self-hosted, cinematic video player to ensure zero-latency playback and zero external API dependencies.
-* **Organic Science**: Includes research-backed sections on natural alkalinity, moisture retention, and sustainability of clay.
+* **Responsive Architecture**: Implements a Flexbox-powered grid for product cards that scales perfectly across devices.
+* **Local Media Integration**: Features a self-hosted, cinematic video player to ensure zero-latency playback.
+* **Organic Science**: Includes research-backed sections on natural alkalinity and moisture retention.
 
 ---
 
@@ -36,26 +36,24 @@ Building a frontend UI for the **"Mitti ke Bartan"** project follows an objectiv
 
 | **The Heritage** | **The Source** | **The Product** |
 |:---:|:---:|:---:|
-| <img src="./Media_Files/ancient.png" width="100%" style="border-radius:10px"> | <img src="./Media_Files/indus_riverbanks.jpg" width="100%" style="border-radius:10px"> | <img src="./Media_Files/matka.png" width="100%" style="border-radius:10px"> |
+| <img src="./Media_Files/ancient.png" width="100%" style="border-radius:10px"> | <img src="./Media_Files/indus_riverbanks.jpg" width="100%" style="border-radius:10px"> | <img src="./Media_Files/matka.jpg" width="100%" style="border-radius:10px"> |
 | *Indus Valley History* | *Indus Riverbanks* | *Hand-Crafted Handi* |
 
 ---
 
 ## 📂 Repository Structure
-Code is organized to minimize the time between idea and execution:
-
 ```bash
 Frontend-UI/
-├── index.html          # Homepage with hero section & promo
-├── collection.html     # Product grid & local video player
-├── why.html            # Heritage and benefits breakdown
-├── contact.html        # Tribe-joining form
-├── common.css          # Global resets and tactile UI system
-└── Media_Files/        # ALL optimized assets
+├── index.html          
+├── collection.html     
+├── why.html            
+├── contact.html        
+├── common.css          
+└── Media_Files/        
     ├── ancient.png     
     ├── pottery.mp4     
-    ├── homepage.jpg    # Full site hero preview
-    ├── products.jpg    # Full collection grid preview
+    ├── homepage.PNG    # FIXED EXTENSION
+    ├── products.PNG    # FIXED EXTENSION
     └── ...             
 
 ```
@@ -67,12 +65,16 @@ Frontend-UI/
 ### **Homepage Interface**
 
 The landing page features a minimalist hero section designed to emphasize the brand's core message and offer immediate value via the promotional discount.
-<img src="./Media_Files/homepage.jpg" alt="Mitti Homepage Preview" width="100%" style="border-radius: 15px; border: 1px solid #d7ccc8;">
+<img src="./Media_Files/homepage.PNG" alt="Mitti Homepage Preview" width="100%" style="border-radius: 15px; border: 1px solid #d7ccc8;">
 
 ### **Curated Collection Grid**
 
 The products page utilizes a responsive grid system where each card represents a specific handcrafted item, maintaining visual consistency through uniform sizing and earthy tones.
-<img src="./Media_Files/products.jpg" alt="Mitti Collection Preview" width="100%" style="border-radius: 15px; border: 1px solid #d7ccc8;">
+<img src="./Media_Files/products.PNG" alt="Mitti Collection Preview" width="100%" style="border-radius: 15px; border: 1px solid #d7ccc8;">
 
 ---
 
+
+**Pro-tip:** Check your `index.html` too—if you used `matka.png` but the file is `matka.jpg`, it'll break there as well. Would you like me to generate the final corrected HTML files to match this exact file list?
+
+```
