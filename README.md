@@ -74,7 +74,3 @@ The products page utilizes a responsive grid system where each card represents a
 
 ---
 
-
-**Pro-tip:** Check your `index.html` too—if you used `matka.png` but the file is `matka.jpg`, it'll break there as well. Would you like me to generate the final corrected HTML files to match this exact file list?
-
-```
