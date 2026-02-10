@@ -26,7 +26,7 @@ Building a frontend UI for the **"Mitti ke Bartan"** project. It follows an obje
 
 ## ✨ Core Features
 * **Earthy Aesthetics**: Utilizes a curated palette (#E8DCC8 and #5D4037) with tactile, solid shadows to mimic the physical depth of pottery.
-* **Responsive Architecture**: Implements a Flexbox-powered grid for product cards that scales perfectly across devices.
+* **Responsive Architecture**: Implements a Flexbox-powered grid for product cards that scales perfectly across devices..
 * **Local Media Integration**: Features a self-hosted, cinematic video player to ensure zero-latency playback.
 * **Organic Science**: Includes research-backed sections on natural alkalinity and moisture retention.
 
