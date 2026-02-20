@@ -72,5 +72,4 @@ The landing page features a minimalist hero section designed to emphasize the br
 The products page utilizes a responsive grid system where each card represents a specific handcrafted item, maintaining visual consistency through uniform sizing and earthy tones.
 <img src="./Media_Files/products.PNG" alt="Mitti Collection Preview" width="100%" style="border-radius: 15px; border: 1px solid #d7ccc8;">
 
----
 
